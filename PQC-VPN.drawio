@@ -1,49 +1,55 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1042" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-31" value="通道管理面板" style="shape=cloud;fillColor=#f5f5f5;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="870" height="620" as="geometry" />
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-45" value="云端 VPN 服务" style="shape=cloud;fillColor=#f5f5f5;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="850" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-32" value="安全管理" style="swimlane;fillColor=#ecf0f1;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-31">
-          <mxGeometry x="435" y="124" width="372.8571428571429" height="248" as="geometry" />
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-46" value="通道管理面板" style="swimlane;fillColor=#ecf0f1;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-45">
+          <mxGeometry x="159.375" y="106.66666666666667" width="531.25" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-33" value="CA" style="rounded=1;fillColor=#2ecc71;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-32">
-          <mxGeometry x="37.285714285714285" y="62" width="149.14285714285714" height="74.4" as="geometry" />
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-47" value="CA" style="rounded=1;fillColor=#2ecc71;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-46">
+          <mxGeometry x="53.125" y="53.333333333333336" width="127.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-34" value="证书存储" style="rounded=1;fillColor=#bdc3c7;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-32">
-          <mxGeometry x="37.285714285714285" y="161.2" width="149.14285714285714" height="49.6" as="geometry" />
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-48" value="证书存储" style="rounded=1;fillColor=#bdc3c7;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-46">
+          <mxGeometry x="53.125" y="163.33666666666664" width="127.5" height="42.666666666666664" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-35" value="成员认证服务" style="rounded=1;fillColor=#e67e22;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-32">
-          <mxGeometry x="211.28571428571428" y="62" width="149.14285714285714" height="74.4" as="geometry" />
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-49" value="路由配置器" style="rounded=1;fillColor=#3498db;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-46">
+          <mxGeometry x="201.875" y="53.333333333333336" width="127.5" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-36" value="证书发放" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-32" source="-UjImX7-f-zHvOQc9SkZ-33" target="-UjImX7-f-zHvOQc9SkZ-34">
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-50" value="路由表存储" style="rounded=1;fillColor=#bdc3c7;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-46">
+          <mxGeometry x="201.875" y="138.66666666666666" width="127.5" height="42.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-51" value="成员认证服务" style="rounded=1;fillColor=#e67e22;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-46">
+          <mxGeometry x="400.625" y="53.333333333333336" width="127.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-52" value="mTLS 认证" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-46" source="-UjImX7-f-zHvOQc9SkZ-49" target="-UjImX7-f-zHvOQc9SkZ-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-37" value="通道管理" style="swimlane;fillColor=#ecf0f1;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-31">
-          <mxGeometry x="62.142857142857146" y="124" width="310.7142857142857" height="434" as="geometry" />
-        </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-38" value="路由配置器" style="rounded=1;fillColor=#3498db;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-37">
-          <mxGeometry x="62.142857142857146" y="62" width="149.14285714285714" height="74.4" as="geometry" />
-        </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-39" value="路由表存储" style="rounded=1;fillColor=#bdc3c7;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-37">
-          <mxGeometry x="62.142857142857146" y="161.2" width="149.14285714285714" height="49.6" as="geometry" />
-        </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-40" value="设备管理服务" style="rounded=1;fillColor=#9b59b6;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-37">
-          <mxGeometry x="62.142857142857146" y="260.4" width="149.14285714285714" height="74.4" as="geometry" />
-        </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-41" value="路由表" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-37" source="-UjImX7-f-zHvOQc9SkZ-38" target="-UjImX7-f-zHvOQc9SkZ-39">
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-53" value="证书发放" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-46" source="-UjImX7-f-zHvOQc9SkZ-47" target="-UjImX7-f-zHvOQc9SkZ-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-42" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-31" source="-UjImX7-f-zHvOQc9SkZ-38" target="-UjImX7-f-zHvOQc9SkZ-35">
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-54" value="路由表" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-46" source="-UjImX7-f-zHvOQc9SkZ-49" target="-UjImX7-f-zHvOQc9SkZ-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-43" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-31" source="-UjImX7-f-zHvOQc9SkZ-35" target="-UjImX7-f-zHvOQc9SkZ-40">
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-55" value="设备管理服务" style="rounded=1;fillColor=#9b59b6;strokeColor=#000000;" vertex="1" parent="-UjImX7-f-zHvOQc9SkZ-45">
+          <mxGeometry x="159.375" y="480" width="127.5" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-57" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-45" source="-UjImX7-f-zHvOQc9SkZ-51" target="-UjImX7-f-zHvOQc9SkZ-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-UjImX7-f-zHvOQc9SkZ-44" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-31" source="-UjImX7-f-zHvOQc9SkZ-33" target="-UjImX7-f-zHvOQc9SkZ-40">
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-58" value="mTLS 证书" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="-UjImX7-f-zHvOQc9SkZ-45" source="-UjImX7-f-zHvOQc9SkZ-47" target="-UjImX7-f-zHvOQc9SkZ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-60" value="用户设备" style="shape=mxgraph.network.device;fillColor=#7f8c8d;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-56" value="VPN 流量" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="-UjImX7-f-zHvOQc9SkZ-60" target="-UjImX7-f-zHvOQc9SkZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-UjImX7-f-zHvOQc9SkZ-59" value="mTLS 证书" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="-UjImX7-f-zHvOQc9SkZ-47" target="-UjImX7-f-zHvOQc9SkZ-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
